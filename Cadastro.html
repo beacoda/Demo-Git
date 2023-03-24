@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Informações pessoais</legend>
+            <div>Gênero</div>
+                <span>masculino</span>
+                <input type="radio" name="Gênero" value="masculino"/>
+                <span>feminino</span>
+                <input type="radio" name="Gênero" value="feminino"/>
+                <span>outro</span>
+                <input type="radio" name="Gênero" value="outro">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome"/>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome">
+                <p>Tamanhos</p>
+                <select name="tamanhos">
+                <option value="P">Pequeno</option>
+                <option value="M">Médio</option>
+                <option value="G">Grande</option>
+                </select>
+                <button type="submit">
+                  Enviar  
+                </button>
+                <button type="reset">
+                    Limpar formulário
+                </button>
+            </fieldset>
+        </form>
+    </body>
+</html>
